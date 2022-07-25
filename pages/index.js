@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import classes from '../styles/Home.module.css'
+import Head from 'next/head';
+import SearchUsername from "../Components/SearchUsername";
+import classes from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -12,10 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={classes.main}>
-        bingo!
-        <button>
-          <Link href='/profile/23'>search</Link>
-        </button>
+          <SearchUsername/>
       </main>
     </div>
   )
