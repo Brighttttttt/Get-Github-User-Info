@@ -1,0 +1,33 @@
+.gridItem {
+    width: 40em;
+    border: 3px solid #44337a;
+    background-color: rgba(68, 51, 122, 0.2);
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.avatar {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.name {
+    margin: 3em;
+    font-weight: bold;
+    text-align: left;
+}
+.name p {
+    padding: 0.4em 0;
+}
+
+.info {
+    margin: 1em 1em 1em 3em;
+}
+
+.repoCard {
+    border: 3px solid #44337a;
+    background-color: rgba(68, 51, 122, 0.2);
+    border-radius: 20px;
+    padding: 1em;
+}

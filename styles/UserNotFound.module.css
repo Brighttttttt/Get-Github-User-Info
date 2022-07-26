@@ -1,0 +1,15 @@
+.textBox {
+    border: 3px solid #620101;
+    background-color: rgba(98, 1, 1, 0.2);
+    padding: 3em;
+    border-radius: 20px;
+    color: #320101;
+}
+
+.textBox h1 {
+    font-size: 5em;
+}
+
+.textBox h2 {
+    font-size: 2em;
+}

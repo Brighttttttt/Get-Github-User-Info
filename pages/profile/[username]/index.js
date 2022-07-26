@@ -2,15 +2,17 @@ import Head from "next/head";
 import {useRouter} from "next/router";
 import {useEffect, useState} from "react";
 import classes from '../../../styles/Home.module.css';
+import UserNotFound from "../../../Components/UserNotFound";
+import UserDetails from "../../../Components/UserDetails";
 
-export default function UserDetails() {
+export default function UserDetailsPage() {
     const router=useRouter();
     const username=router.query.username;
 
     const [data, setData]=useState();
 
     const getUserDetails=async () => {
-        let res=await fetch("https://api.github.com/users/Brighttttttt");
+        let res=await fetch(`https://api.github.com/users/${username}`);
         return await res.json();
     };
 
@@ -19,15 +21,16 @@ export default function UserDetails() {
     }, []);
 
     return (
-        <div className={classes.container}>
+        <div className={`${classes.container} ${classes.gradientBackground}`}>
             <Head>
                 <title>User Details</title>
             </Head>
 
             <main className={classes.main}>
-                <p>{username}</p>
-                {console.log(data)}
-                <div>{`${data?.id} ${data?.name}`}</div>
+                {data?.message ?
+                    <UserNotFound/>
+                    : <UserDetails data={data} username={username}/>
+                }
             </main>
         </div>
     )
