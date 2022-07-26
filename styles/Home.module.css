@@ -3,11 +3,30 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  max-height: 100vh;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.gradientBackground {
+  background: linear-gradient(270deg, #f592e4, #939cf5);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
 }
