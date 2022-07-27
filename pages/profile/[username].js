@@ -1,25 +1,9 @@
 import Head from "next/head";
-import {useRouter} from "next/router";
-import {useEffect, useState} from "react";
 import classes from '../../styles/Home.module.css';
 import UserNotFound from "../../Components/UserNotFound";
 import UserDetails from "../../Components/UserDetails";
 
-export default function UserDetailsPage() {
-    const router=useRouter();
-    const username=router.query.username;
-
-    const [data, setData]=useState();
-
-    const getUserDetails=async () => {
-        let res=await fetch(`https://api.github.com/users/${username}`);
-        return await res.json();
-    };
-
-    useEffect(() => {
-       if(username?.length>0) getUserDetails().then((res) => setData(res));
-    }, [username]);
-
+export default function UserDetailsPage({data, repos}) {
     return (
         <div className={`${classes.container} ${classes.gradientBackground}`}>
             <Head>
@@ -29,9 +13,18 @@ export default function UserDetailsPage() {
             <main className={classes.main}>
                 {data?.message ?
                     <UserNotFound/>
-                    : <UserDetails data={data} username={username}/>
+                    : <UserDetails data={data} repos={repos}/>
                 }
             </main>
         </div>
     )
+}
+
+UserDetailsPage.getInitialProps = async (ctx) => {
+    const username = ctx.query["username"];
+    const data = await fetch(`https://api.github.com/users/${username}`);
+    const repos = await fetch(`https://api.github.com/users/${username}/repos`);
+    const tempData = await data.json();
+    const tempRepos = await repos.json();
+    return {data: tempData, repos: tempRepos};
 }

@@ -3,26 +3,13 @@ import classes from "../styles/Home.module.css";
 import detailsClasses from "../styles/UserDetails.module.css";
 import {SimpleGrid, Center, Badge, Tag, Text} from '@chakra-ui/react'
 import {Box} from "@chakra-ui/layout";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import Pagination from "./Pagination";
 import Link from "next/link";
 import {Button} from "@chakra-ui/button";
 import {ArrowBackIcon} from "@chakra-ui/icons";
 
-export default function UserDetails({data, username}) {
-    const [repos, setRepos]=useState([]);
-
-    const getRepos=async () => {
-        if (username?.length>0) {
-            let res=await fetch(`https://api.github.com/users/${username}/repos`);
-            return await res.json();
-        }
-    };
-
-    useEffect(() => {
-        getRepos().then((res) => setRepos(res));
-    }, [username]);
-
+export default function UserDetails({data, repos}) {
     const sortedRepos = repos?.sort((a, b) => {
         return new Date(b?.updated_at).getTime() - new Date(a?.updated_at).getTime();
     });
