@@ -1,9 +1,9 @@
 import Head from "next/head";
 import {useRouter} from "next/router";
 import {useEffect, useState} from "react";
-import classes from '../../../styles/Home.module.css';
-import UserNotFound from "../../../Components/UserNotFound";
-import UserDetails from "../../../Components/UserDetails";
+import classes from '../../styles/Home.module.css';
+import UserNotFound from "../../Components/UserNotFound";
+import UserDetails from "../../Components/UserDetails";
 
 export default function UserDetailsPage() {
     const router=useRouter();
@@ -17,8 +17,8 @@ export default function UserDetailsPage() {
     };
 
     useEffect(() => {
-        getUserDetails().then((res) => setData(res));
-    }, []);
+       if(username?.length>0) getUserDetails().then((res) => setData(res));
+    }, [username]);
 
     return (
         <div className={`${classes.container} ${classes.gradientBackground}`}>
