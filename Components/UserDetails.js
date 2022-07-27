@@ -21,12 +21,16 @@ export default function UserDetails({data, username}) {
         getRepos().then((res) => setRepos(res));
     }, []);
 
+    const sortedRepos = repos?.sort((a, b) => {
+        return new Date(b?.updated_at).getTime() - new Date(a?.updated_at).getTime();
+    });
+
     const [currentPage, setCurrentPage]=useState(1);
     const itemsPerPage=6;
     const indexOfLastPage=itemsPerPage*currentPage;
     const indexOfFirstPage=indexOfLastPage-itemsPerPage;
-    const allItems=repos.length;
-    const currentItems=repos.slice(indexOfFirstPage, indexOfLastPage);
+    const allItems=sortedRepos?.length;
+    const currentItems=sortedRepos?.slice(indexOfFirstPage, indexOfLastPage);
     const paginate=(pageNumber)=>setCurrentPage(pageNumber);
 
     return (
@@ -36,7 +40,7 @@ export default function UserDetails({data, username}) {
             </Head>
 
             <main className={classes.main}>
-                <SimpleGrid columns={2} spacing={10}>
+                <SimpleGrid columns={{base: 1, md: 1, lg: 2}} spacing={10}>
                     <Center>
                         <Box className={detailsClasses.gridItem}>
                             <div style={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
@@ -72,7 +76,7 @@ export default function UserDetails({data, username}) {
                                 Repositories:
                             </Text>
                             <SimpleGrid columns={2} spacing={5}>
-                                {currentItems.map((item) => (
+                                {currentItems?.map((item) => (
                                     <div className={detailsClasses.repoCard}>
                                         <div>
                                             <span style={{margin: "0 0.5em 0.5em 0", display: "inline-block"}}>{item?.name}</span>

@@ -3,7 +3,6 @@
 }
 
 .main {
-  max-height: 100vh;
   padding: 2rem 0;
   flex: 1;
   display: flex;
@@ -11,12 +10,17 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 1140px) {
+  .main {
+    max-height: 100vh;
+  }
+}
 
 .gradientBackground {
   background: linear-gradient(270deg, #f592e4, #939cf5);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @keyframes gradient {
