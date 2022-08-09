@@ -1,0 +1,155 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
+exports.modules = {
+
+/***/ "./styles/Home.module.css":
+/*!********************************!*\
+  !*** ./styles/Home.module.css ***!
+  \********************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"Home_container__bCOhY\",\n\t\"main\": \"Home_main__nLjiQ\",\n\t\"gradientBackground\": \"Home_gradientBackground__YrCbC\",\n\t\"gradient\": \"Home_gradient__koqpo\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zdHlsZXMvSG9tZS5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZ2V0LWdpdGh1Yi11c2VyLWluZm8vLi9zdHlsZXMvSG9tZS5tb2R1bGUuY3NzPzcxMjciXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiY29udGFpbmVyXCI6IFwiSG9tZV9jb250YWluZXJfX2JDT2hZXCIsXG5cdFwibWFpblwiOiBcIkhvbWVfbWFpbl9fbkxqaVFcIixcblx0XCJncmFkaWVudEJhY2tncm91bmRcIjogXCJIb21lX2dyYWRpZW50QmFja2dyb3VuZF9fWXJDYkNcIixcblx0XCJncmFkaWVudFwiOiBcIkhvbWVfZ3JhZGllbnRfX2tvcXBvXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./styles/Home.module.css\n");
+
+/***/ }),
+
+/***/ "./styles/SearchUser.module.css":
+/*!**************************************!*\
+  !*** ./styles/SearchUser.module.css ***!
+  \**************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"github\": \"SearchUser_github__Ns_hT\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zdHlsZXMvU2VhcmNoVXNlci5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZ2V0LWdpdGh1Yi11c2VyLWluZm8vLi9zdHlsZXMvU2VhcmNoVXNlci5tb2R1bGUuY3NzPzUxYTIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiZ2l0aHViXCI6IFwiU2VhcmNoVXNlcl9naXRodWJfX05zX2hUXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./styles/SearchUser.module.css\n");
+
+/***/ }),
+
+/***/ "./Components/SearchUsername.js":
+/*!**************************************!*\
+  !*** ./Components/SearchUsername.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ SearchUsername)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/Home.module.css */ \"./styles/Home.module.css\");\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _styles_SearchUser_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/SearchUser.module.css */ \"./styles/SearchUser.module.css\");\n/* harmony import */ var _styles_SearchUser_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_SearchUser_module_css__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @chakra-ui/react */ \"@chakra-ui/react\");\n/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _chakra_ui_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @chakra-ui/button */ \"@chakra-ui/button\");\n/* harmony import */ var _chakra_ui_button__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_button__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _chakra_ui_input__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @chakra-ui/input */ \"@chakra-ui/input\");\n/* harmony import */ var _chakra_ui_input__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_input__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _chakra_ui_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @chakra-ui/icons */ \"@chakra-ui/icons\");\n/* harmony import */ var _chakra_ui_icons__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_7__);\n\n\n\n\n\n\n\n\n\n\n\nfunction SearchUsername() {\n    const { 0: username , 1: serUsername  } = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)();\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    const toast = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__.useToast)();\n    const getUserDetails = async ()=>{\n        let res = await fetch(`https://api.github.com/users/${username}`);\n        return await res.json();\n    };\n    const checkUser = ()=>{\n        getUserDetails().then((res)=>{\n            return (res === null || res === void 0 ? void 0 : res.message) ? toast({\n                title: \"Wrong Username!\",\n                description: \"There`s no account with this username.\",\n                status: \"error\",\n                duration: 5000,\n                variant: \"subtle\",\n                position: \"top\",\n                isClosable: true\n            }) : router.push(`/profile/${username}`);\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8___default().container),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                    children: \"User Details\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                    lineNumber: 41,\n                    columnNumber: 17\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                lineNumber: 40,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_8___default().main),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                        src: \"/github.png\",\n                        alt: \"github-logo\",\n                        className: (_styles_SearchUser_module_css__WEBPACK_IMPORTED_MODULE_9___default().github)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                        lineNumber: 45,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__.Text, {\n                        fontSize: 35,\n                        mb: 10,\n                        color: \"purple.800\",\n                        fontWeight: \"bold\",\n                        children: \"Find Github User Details By Username!\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                        lineNumber: 46,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_input__WEBPACK_IMPORTED_MODULE_6__.InputGroup, {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_input__WEBPACK_IMPORTED_MODULE_6__.InputLeftElement, {\n                                pointerEvents: \"none\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_icons__WEBPACK_IMPORTED_MODULE_7__.SearchIcon, {\n                                    color: \"purple.800\"\n                                }, void 0, false, void 0, void 0)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                                lineNumber: 50,\n                                columnNumber: 21\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__.Input, {\n                                placeholder: \"Username ...\",\n                                _placeholder: {\n                                    color: \"purple.600\"\n                                },\n                                _hover: {\n                                    borderColor: \"purple.600\"\n                                },\n                                focusBorderColor: \"purple.600\",\n                                sx: {\n                                    borderWidth: \"2px\",\n                                    color: \"#44337A\"\n                                },\n                                onChange: (e)=>serUsername(e.target.value)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                                lineNumber: 54,\n                                columnNumber: 21\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                        lineNumber: 49,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_chakra_ui_button__WEBPACK_IMPORTED_MODULE_5__.Button, {\n                        color: \"purple.700\",\n                        variant: \"outline\",\n                        sx: {\n                            borderWidth: \"2px\",\n                            margin: \"2em\"\n                        },\n                        type: \"submit\",\n                        onClick: ()=>checkUser(),\n                        children: \"Search User\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                        lineNumber: 63,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n                lineNumber: 44,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\Components\\\\SearchUsername.js\",\n        lineNumber: 39,\n        columnNumber: 9\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QixFQUFFLEVBQUU7NEJBQUNDLFdBQVcsRUFBQyxLQUFLOzRCQUFFSyxNQUFNLEVBQUUsS0FBSzt5QkFBQzt3QkFDdENDLElBQUksRUFBQyxRQUFRO3dCQUNiQyxPQUFPLEVBQUUsSUFBTXRDLFNBQVMsRUFBRTtrQ0FDN0IsYUFFRDs7Ozs7NEJBQVM7Ozs7OztvQkFDTjs7Ozs7O1lBQ0wsQ0FDVDtDQUNKIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZ2V0LWdpdGh1Yi11c2VyLWluZm8vLi9Db21wb25lbnRzL1NlYXJjaFVzZXJuYW1lLmpzP2IxNWYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xyXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcic7XHJcbmltcG9ydCB7dXNlU3RhdGV9IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgY2xhc3NlcyBmcm9tICcuLi9zdHlsZXMvSG9tZS5tb2R1bGUuY3NzJztcclxuaW1wb3J0IHNlYXJjaFVzZXJDbGFzc2VzIGZyb20gXCIuLi9zdHlsZXMvU2VhcmNoVXNlci5tb2R1bGUuY3NzXCI7XHJcbmltcG9ydCB7IElucHV0IH0gZnJvbSAnQGNoYWtyYS11aS9yZWFjdCc7XHJcbmltcG9ydCB7QnV0dG9ufSBmcm9tIFwiQGNoYWtyYS11aS9idXR0b25cIjtcclxuaW1wb3J0IHtJbnB1dExlZnRFbGVtZW50LCBJbnB1dEdyb3VwfSBmcm9tIFwiQGNoYWtyYS11aS9pbnB1dFwiO1xyXG5pbXBvcnQge1NlYXJjaEljb259IGZyb20gJ0BjaGFrcmEtdWkvaWNvbnMnO1xyXG5pbXBvcnQgeyB1c2VUb2FzdCwgVGV4dCB9IGZyb20gJ0BjaGFrcmEtdWkvcmVhY3QnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2VhcmNoVXNlcm5hbWUoKSB7XHJcbiAgICBjb25zdCBbdXNlcm5hbWUsIHNlclVzZXJuYW1lXT11c2VTdGF0ZSgpO1xyXG4gICAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XHJcbiAgICBjb25zdCB0b2FzdCA9IHVzZVRvYXN0KCk7XHJcblxyXG4gICAgY29uc3QgZ2V0VXNlckRldGFpbHM9YXN5bmMgKCkgPT4ge1xyXG4gICAgICAgIGxldCByZXM9YXdhaXQgZmV0Y2goYGh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvJHt1c2VybmFtZX1gKTtcclxuICAgICAgICByZXR1cm4gYXdhaXQgcmVzLmpzb24oKTtcclxuICAgIH07XHJcblxyXG4gICAgY29uc3QgY2hlY2tVc2VyPSgpID0+IHtcclxuICAgICAgICBnZXRVc2VyRGV0YWlscygpXHJcbiAgICAgICAgICAgIC50aGVuKChyZXMpID0+IHJlcz8ubWVzc2FnZSA/XHJcbiAgICAgICAgICAgICAgICB0b2FzdCh7XHJcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU6ICdXcm9uZyBVc2VybmFtZSEnLFxyXG4gICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBcIlRoZXJlYHMgbm8gYWNjb3VudCB3aXRoIHRoaXMgdXNlcm5hbWUuXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiAnZXJyb3InLFxyXG4gICAgICAgICAgICAgICAgICAgIGR1cmF0aW9uOiA1MDAwLFxyXG4gICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6ICdzdWJ0bGUnLFxyXG4gICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiAndG9wJyxcclxuICAgICAgICAgICAgICAgICAgICBpc0Nsb3NhYmxlOiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgfSlcclxuICAgICAgICAgICAgICAgIDogcm91dGVyLnB1c2goYC9wcm9maWxlLyR7dXNlcm5hbWV9YFxyXG4gICAgICAgICAgICAgICAgKSlcclxuICAgIH1cclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPXtjbGFzc2VzLmNvbnRhaW5lcn0+XHJcbiAgICAgICAgICAgIDxIZWFkPlxyXG4gICAgICAgICAgICAgICAgPHRpdGxlPlVzZXIgRGV0YWlsczwvdGl0bGU+XHJcbiAgICAgICAgICAgIDwvSGVhZD5cclxuXHJcbiAgICAgICAgICAgIDxtYWluIGNsYXNzTmFtZT17Y2xhc3Nlcy5tYWlufT5cclxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL2dpdGh1Yi5wbmdcIiBhbHQ9XCJnaXRodWItbG9nb1wiIGNsYXNzTmFtZT17c2VhcmNoVXNlckNsYXNzZXMuZ2l0aHVifS8+XHJcbiAgICAgICAgICAgICAgICA8VGV4dCBmb250U2l6ZT17MzV9IG1iPXsxMH0gY29sb3I9XCJwdXJwbGUuODAwXCIgZm9udFdlaWdodD1cImJvbGRcIj5cclxuICAgICAgICAgICAgICAgICAgICBGaW5kIEdpdGh1YiBVc2VyIERldGFpbHMgQnkgVXNlcm5hbWUhXHJcbiAgICAgICAgICAgICAgICA8L1RleHQ+XHJcbiAgICAgICAgICAgICAgICA8SW5wdXRHcm91cD5cclxuICAgICAgICAgICAgICAgICAgICA8SW5wdXRMZWZ0RWxlbWVudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwb2ludGVyRXZlbnRzPSdub25lJ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBjaGlsZHJlbj17PFNlYXJjaEljb24gY29sb3I9J3B1cnBsZS44MDAnIC8+fVxyXG4gICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgPElucHV0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPVwiVXNlcm5hbWUgLi4uXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgX3BsYWNlaG9sZGVyPXt7IGNvbG9yOiAncHVycGxlLjYwMCcgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgX2hvdmVyPXt7Ym9yZGVyQ29sb3I6ICdwdXJwbGUuNjAwJ319XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvY3VzQm9yZGVyQ29sb3I9XCJwdXJwbGUuNjAwXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgc3g9e3tib3JkZXJXaWR0aDogXCIycHhcIiwgY29sb3I6IFwiIzQ0MzM3QVwifX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXJVc2VybmFtZShlLnRhcmdldC52YWx1ZSl9XHJcbiAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgIDwvSW5wdXRHcm91cD5cclxuICAgICAgICAgICAgICAgIDxCdXR0b25cclxuICAgICAgICAgICAgICAgICAgICBjb2xvcj0ncHVycGxlLjcwMCdcclxuICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSdvdXRsaW5lJ1xyXG4gICAgICAgICAgICAgICAgICAgIHN4PXt7Ym9yZGVyV2lkdGg6XCIycHhcIiwgbWFyZ2luOiBcIjJlbVwifX1cclxuICAgICAgICAgICAgICAgICAgICB0eXBlPVwic3VibWl0XCJcclxuICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBjaGVja1VzZXIoKX1cclxuICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICBTZWFyY2ggVXNlclxyXG4gICAgICAgICAgICAgICAgPC9CdXR0b24+XHJcbiAgICAgICAgICAgIDwvbWFpbj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufSJdLCJuYW1lcyI6WyJIZWFkIiwidXNlUm91dGVyIiwidXNlU3RhdGUiLCJjbGFzc2VzIiwic2VhcmNoVXNlckNsYXNzZXMiLCJJbnB1dCIsIkJ1dHRvbiIsIklucHV0TGVmdEVsZW1lbnQiLCJJbnB1dEdyb3VwIiwiU2VhcmNoSWNvbiIsInVzZVRvYXN0IiwiVGV4dCIsIlNlYXJjaFVzZXJuYW1lIiwidXNlcm5hbWUiLCJzZXJVc2VybmFtZSIsInJvdXRlciIsInRvYXN0IiwiZ2V0VXNlckRldGFpbHMiLCJyZXMiLCJmZXRjaCIsImpzb24iLCJjaGVja1VzZXIiLCJ0aGVuIiwibWVzc2FnZSIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJzdGF0dXMiLCJkdXJhdGlvbiIsInZhcmlhbnQiLCJwb3NpdGlvbiIsImlzQ2xvc2FibGUiLCJwdXNoIiwiZGl2IiwiY2xhc3NOYW1lIiwiY29udGFpbmVyIiwibWFpbiIsImltZyIsInNyYyIsImFsdCIsImdpdGh1YiIsImZvbnRTaXplIiwibWIiLCJjb2xvciIsImZvbnRXZWlnaHQiLCJwb2ludGVyRXZlbnRzIiwiY2hpbGRyZW4iLCJwbGFjZWhvbGRlciIsIl9wbGFjZWhvbGRlciIsIl9ob3ZlciIsImJvcmRlckNvbG9yIiwiZm9jdXNCb3JkZXJDb2xvciIsInN4IiwiYm9yZGVyV2lkdGgiLCJvbkNoYW5nZSIsImUiLCJ0YXJnZXQiLCJ2YWx1ZSIsIm1hcmdpbiIsInR5cGUiLCJvbkNsaWNrIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./Components/SearchUsername.js\n");
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Components_SearchUsername__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/SearchUsername */ \"./Components/SearchUsername.js\");\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/Home.module.css */ \"./styles/Home.module.css\");\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: `${(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default().container)} ${(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default().gradientBackground)}`,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Get Github User Info\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\pages\\\\index.js\",\n                        lineNumber: 9,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"description\",\n                        content: \"Get Github User Info\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\pages\\\\index.js\",\n                        lineNumber: 10,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"/favicon.ico\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\pages\\\\index.js\",\n                        lineNumber: 11,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\pages\\\\index.js\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default().main),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Components_SearchUsername__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\pages\\\\index.js\",\n                    lineNumber: 15,\n                    columnNumber: 11\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\pages\\\\index.js\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\LEGION\\\\Documents\\\\My Codes\\\\Web\\\\Phpstorm\\\\Get-Github-User-Info\\\\pages\\\\index.js\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBO0FBQTZCO0FBQzZCO0FBQ1Y7QUFFakMsU0FBU0csSUFBSSxHQUFHO0lBQzdCLHFCQUNFLDhEQUFDQyxLQUFHO1FBQUNDLFNBQVMsRUFBRSxDQUFDLEVBQUVILDBFQUFpQixDQUFDLENBQUMsRUFBRUEsbUZBQTBCLENBQUMsQ0FBQzs7MEJBQ2xFLDhEQUFDRixrREFBSTs7a0NBQ0gsOERBQUNRLE9BQUs7a0NBQUMsc0JBQW9COzs7Ozs0QkFBUTtrQ0FDbkMsOERBQUNDLE1BQUk7d0JBQUNDLElBQUksRUFBQyxhQUFhO3dCQUFDQyxPQUFPLEVBQUMsc0JBQXNCOzs7Ozs0QkFBRztrQ0FDMUQsOERBQUNDLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxNQUFNO3dCQUFDQyxJQUFJLEVBQUMsY0FBYzs7Ozs7NEJBQUc7Ozs7OztvQkFDbEM7MEJBRVAsOERBQUNDLE1BQUk7Z0JBQUNWLFNBQVMsRUFBRUgscUVBQVk7MEJBQ3pCLDRFQUFDRCxrRUFBYzs7Ozt3QkFBRTs7Ozs7b0JBQ2Q7Ozs7OztZQUNILENBQ1A7Q0FDRiIsInNvdXJjZXMiOlsid2VicGFjazovL2dldC1naXRodWItdXNlci1pbmZvLy4vcGFnZXMvaW5kZXguanM/YmVlNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xyXG5pbXBvcnQgU2VhcmNoVXNlcm5hbWUgZnJvbSBcIi4uL0NvbXBvbmVudHMvU2VhcmNoVXNlcm5hbWVcIjtcclxuaW1wb3J0IGNsYXNzZXMgZnJvbSAnLi4vc3R5bGVzL0hvbWUubW9kdWxlLmNzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT17YCR7Y2xhc3Nlcy5jb250YWluZXJ9ICR7Y2xhc3Nlcy5ncmFkaWVudEJhY2tncm91bmR9YH0+XHJcbiAgICAgIDxIZWFkPlxyXG4gICAgICAgIDx0aXRsZT5HZXQgR2l0aHViIFVzZXIgSW5mbzwvdGl0bGU+XHJcbiAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIkdldCBHaXRodWIgVXNlciBJbmZvXCIgLz5cclxuICAgICAgICA8bGluayByZWw9XCJpY29uXCIgaHJlZj1cIi9mYXZpY29uLmljb1wiIC8+XHJcbiAgICAgIDwvSGVhZD5cclxuXHJcbiAgICAgIDxtYWluIGNsYXNzTmFtZT17Y2xhc3Nlcy5tYWlufT5cclxuICAgICAgICAgIDxTZWFyY2hVc2VybmFtZS8+XHJcbiAgICAgIDwvbWFpbj5cclxuICAgIDwvZGl2PlxyXG4gIClcclxufVxyXG4iXSwibmFtZXMiOlsiSGVhZCIsIlNlYXJjaFVzZXJuYW1lIiwiY2xhc3NlcyIsIkhvbWUiLCJkaXYiLCJjbGFzc05hbWUiLCJjb250YWluZXIiLCJncmFkaWVudEJhY2tncm91bmQiLCJ0aXRsZSIsIm1ldGEiLCJuYW1lIiwiY29udGVudCIsImxpbmsiLCJyZWwiLCJocmVmIiwibWFpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+
+/***/ }),
+
+/***/ "@chakra-ui/button":
+/*!************************************!*\
+  !*** external "@chakra-ui/button" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@chakra-ui/button");
+
+/***/ }),
+
+/***/ "@chakra-ui/icons":
+/*!***********************************!*\
+  !*** external "@chakra-ui/icons" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@chakra-ui/icons");
+
+/***/ }),
+
+/***/ "@chakra-ui/input":
+/*!***********************************!*\
+  !*** external "@chakra-ui/input" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@chakra-ui/input");
+
+/***/ }),
+
+/***/ "@chakra-ui/react":
+/*!***********************************!*\
+  !*** external "@chakra-ui/react" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@chakra-ui/react");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+module.exports = __webpack_exports__;
+
+})();
