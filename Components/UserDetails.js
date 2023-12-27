@@ -9,6 +9,14 @@ import Link from "next/link";
 import {Button} from "@chakra-ui/button";
 import {ArrowBackIcon} from "@chakra-ui/icons";
 
+/**
+ *
+ * @param data user account data
+ * @param repos user repositories
+ * @returns {JSX.Element}
+ * @constructor
+ */
+
 export default function UserDetails({data, repos}) {
     const sortedRepos = repos?.sort((a, b) => {
         return new Date(b?.updated_at).getTime() - new Date(a?.updated_at).getTime();
@@ -32,7 +40,7 @@ export default function UserDetails({data, repos}) {
                 <SimpleGrid columns={{base: 1, md: 1, lg: 2}} spacing={10}>
                     <Center>
                         <Box className={detailsClasses.gridItem}>
-                            <div style={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
+                            <div className={detailsClasses.avatarContainer}>
                                 <div>
                                     <img src={data?.avatar_url} alt="avatar" className={detailsClasses.avatar}/>
                                 </div>
@@ -43,18 +51,18 @@ export default function UserDetails({data, repos}) {
                             </div>
                             <div className={detailsClasses.info}>
                                 Followers: {data?.followers}
-                                {" "}
+                                {" | "}
                                 Following: {data?.following}
                             </div>
                             <div className={detailsClasses.info}>
                                 <div>
-                                    Location: {data?.location ?? "not recorded"}
+                                    Location: {data?.location ?? "Not recorded"}
                                 </div>
                                 <div>
-                                    Blog: {data?.blog!=="" ? data?.blog : "not recorded"}
+                                    Blog: {data?.blog!=="" ? data?.blog : "Not recorded"}
                                 </div>
                                 <div>
-                                    Biography: {data?.bio ?? "not recorded"}
+                                    Biography: {data?.bio ?? "Not recorded"}
                                 </div>
                             </div>
                         </Box>
@@ -64,19 +72,21 @@ export default function UserDetails({data, repos}) {
                             <Text fontSize={35} mb={10} color="purple.800" fontWeight="bold">
                                 Repositories:
                             </Text>
-                            <SimpleGrid columns={2} spacing={5}>
-                                {currentItems?.map((item) => (
-                                    <div className={detailsClasses.repoCard}>
-                                        <div>
-                                            <span style={{margin: "0 0.5em 0.5em 0", display: "inline-block"}}>{item?.name}</span>
-                                            <Badge colorScheme='purple'>{item?.visibility}</Badge>
-                                        </div>
-                                        <Tag variant='solid' colorScheme='purple'>
-                                            {item?.language ?? "unknown"}
-                                        </Tag>
-                                    </div>
-                                ))}
-                            </SimpleGrid>
+                            <Box maxW={{md: "37em"}} minW={{md: "37em"}} minH={{md: "22em", sm: "17em"}}>
+                                <SimpleGrid columns={{md: 2, sm: 1}} spacing={5}>
+                                    {currentItems?.map((item) => (
+                                        <div className={detailsClasses.repoCard}>
+                                            <div>
+                                                <span style={{margin: "0 0.5em 0.5em 0", display: "inline-block"}}>{item?.name}</span>
+                                                <Badge colorScheme='purple'>{item?.visibility}</Badge>
+                                            </div>
+                                            <Tag variant='solid' colorScheme='purple'>
+                                                {item?.language ?? "unknown"}
+                                            </Tag>
+                                          </div>
+                                    ))}
+                                </SimpleGrid>
+                            </Box>
                             <Pagination itemsPerPage={itemsPerPage} allItems={allItems} paginate={paginate} currentPage={currentPage}/>
                         </Box>
                     </Center>
@@ -85,8 +95,8 @@ export default function UserDetails({data, repos}) {
                     <Button
                         color='purple.700'
                         variant='outline'
-                        sx={{borderWidth: "2px", margin: "4em"}}
-                        pos="absolute" bottom="0" left="0"
+                        sx={{borderWidth: "2px", margin: {md: "4em 4em 1.5em"}}}
+                        pos={{md: "absolute"}} bottom={{md: "0"}} left={{md: "0"}}
                     >
                         <ArrowBackIcon mr={3}/>
                         Go back to search page
